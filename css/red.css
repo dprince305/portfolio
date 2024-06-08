@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --bs-primary-rgb: 0, 0, 0;
+    --primary-color: #F31312;
+    --primary-text: 'Inter';
+}
+
+
+/* themes */
+.colors ul li:first-child .color {
+    background-color: #28FF8C;
+}
+
+.colors ul li:nth-child(2) .color {
+    background-color: #E4AF11;
+}
+
+.colors ul li:nth-child(3) .color {
+    background-color: #FE6F1C;
+}
+
+.colors ul li:nth-child(4) .color {
+    background-color: #14C5FD;
+}
+
+.colors ul li:nth-child(5) .color {
+    background-color: #C0C0C0;
+}
+
+.colors ul li:nth-child(6) .color {
+    background-color: #1238F3;
+}
+
+.colors ul li:nth-child(7) .color {
+    background-color: var(--primary-color);
+    border: 2px solid white;
+}
+
+.colors ul li:last-child .color {
+    background-color: #FE99CC;
+}
+.color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.padding-y {
+    padding: 50px;
+}
+.custom-container {
+    max-width: 1000px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.hire-me a {
+    background-color: var(--primary-color);
+    color: black;
+    border: 2px solid var(--primary-color);
+    transition: all 0.3s;
+}
+.hire-me a:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+}
+.icon-bar ul li a {
+    color: #999999;
+    transition: all 0.3s;
+}
+.icon-bar ul li a:hover {
+    color: var(--primary-color);
+}
+.social-media ul li a {
+    color: #999;
+    line-height: 2.8;
+    height: 50px;
+    width: 50px;
+    font-size: 17px;
+    border: 2px solid #565656;
+    transition: all 0.3s;
+}
+.social-media li a:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+canvas{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+.img-1 {
+    animation: animName 8s linear infinite;
+}
+@keyframes animName {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.skill-content ul li .s-content{
+    border-radius: 100px;
+    border: 2px solid #565656;
+    transition: all 0.3s ease-in-out;
+}
+.skill-content ul li .s-content:hover{
+    border-color: var(--primary-color);
+}
+.service{
+    border: 1px solid #565656;
+    transition: all 0.5s ease-out;
+}
+.service:hover{
+    border-color: var(--primary-color);
+}
+.service a{
+    text-decoration: none;
+}
+.service a:hover{
+    text-decoration: underline;
+}
+
+.client img{
+    opacity: 0.25;
+}
+.client img:hover{
+    opacity: 1;
+}
+.basic , .test{
+    border-radius: 30px;
+    border: 2px solid #565656;
+    transition: all 0.3s ease-in-out;
+}
+.basic h2, .ceo p span{
+    color: #F31312;
+}
+.basic h2 span{
+    color: #999999;
+}
+.basic:hover , .test:hover{
+    border-color: #F31312;
+}
